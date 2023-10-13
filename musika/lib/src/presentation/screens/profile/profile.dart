@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:musika/src/constant/extensions/barrel_extensions.dart';
+import 'package:musika/src/constant/managers/asset_manager.dart';
 
 import '../../../constant/managers/color_manager.dart';
 
@@ -23,6 +24,7 @@ class _ProfileState extends State<Profile> {
           ], end: Alignment.topRight),
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 59),
             Row(
@@ -47,6 +49,16 @@ class _ProfileState extends State<Profile> {
                   color: Colors.white,
                 )
               ],
+            ),
+            const SizedBox(height: 26),
+            Padding(
+              padding: EdgeInsets.only(left: 135.width()),
+              child: CircleAvatar(
+                radius: 57,
+                child: Image.asset(
+                  AssetManager.good2,
+                ),
+              ),
             )
           ],
         ),
