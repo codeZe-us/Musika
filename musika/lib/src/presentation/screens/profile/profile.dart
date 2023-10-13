@@ -59,6 +59,33 @@ class _ProfileState extends State<Profile> {
                   AssetManager.good2,
                 ),
               ),
+            ),
+            const SizedBox(height: 26),
+            Padding(
+              padding: EdgeInsets.only(left: 103.width()),
+              child: const Column(
+                children: [
+                  Text(
+                    'Samuel Lawal',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 24,
+                      fontFamily: 'Inter',
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                  SizedBox(height: 8),
+                  Text(
+                    '@Psalmwise Boss',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontFamily: 'Inter',
+                      fontWeight: FontWeight.w400,
+                    ),
+                  )
+                ],
+              ),
             )
           ],
         ),
