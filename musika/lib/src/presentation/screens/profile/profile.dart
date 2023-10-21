@@ -164,7 +164,7 @@ class _ProfileState extends State<Profile> {
                         fontFamily: 'Inter',
                         fontWeight: FontWeight.w400,
                       ),
-                    )
+                    ),
                   ],
                 ),
                 SizedBox(width: 29.width()),
